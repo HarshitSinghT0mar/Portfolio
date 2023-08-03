@@ -3,9 +3,16 @@ import Card from './Card'
 
 const Projects = () => {
   return (
+    <>
+    
     <section className='projects-section'>
+    <h2 className='heading'>My Projects</h2>
+    <div className='project-card-section'>
       <Card />
-    </section>
+      <Card />
+      <Card />
+      </div>
+    </section></>
   )
 }
 
