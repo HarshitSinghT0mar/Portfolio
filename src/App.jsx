@@ -2,6 +2,9 @@ import Navbar from './Components/Navbar'
 
 import './App.css'
 import About from './About'
+import TechStack from './Components/TechStack'
+
+import Projects from './Components/Projects'
 
 function App() {
   
@@ -9,6 +12,9 @@ function App() {
     <div className='app-container'>
       <Navbar />
       <About />
+      <TechStack />
+      <Projects />
+      
     </div>
     </>
   )
