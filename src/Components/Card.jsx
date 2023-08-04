@@ -4,14 +4,14 @@ const Card = () => {
   return (
     <div className='project-card'>
     <div className='project-card-img-box'>
-        <img loading="lazy" src='./assets/todoImage.jpg'/>
+        <img loading="lazy" src='./assets/AlarmImage.jpg'/>
     </div>
     <div className='project-card-details'>
 <h3 className='project-title'>MyStore</h3>
 <p className='project-description'>A responsive eCommerce platform with user-centric features, including 'Add to Cart,' smart filtering, and 'Clear Cart,' to deliver a seamless and engaging shopping experience.</p>
 <div className='project-card-links'>
 <a className='project-link' href='https://harshitstore.netlify.app/' target='_blank'>Visit Site</a>
-<a className='project-link' href='#'>Visit Code</a>
+<a className='project-link' href='https://github.com/HarshitSinghT0mar/MyStore' target='_blank'>Visit Code</a>
 </div>
     </div>
       

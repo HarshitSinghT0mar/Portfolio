@@ -5,7 +5,7 @@ const About = () => {
     <section className="about-section">
       <div className="about-section-para">
         <h2
-          className="about-section-heading heading"
+          className="about-section-heading heading  "
           style={{ fontSize: "2.5rem", marginBottom: "3px" }}
         >
           Hey,I'm <br />
