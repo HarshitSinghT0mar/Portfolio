@@ -1,22 +1,25 @@
-import React from 'react'
+import React from "react";
 
-const Card = () => {
+const Card = ({ image, desc, title, code, site } = props) => {
   return (
-    <div className='project-card'>
-    <div className='project-card-img-box'>
-        <img loading="lazy" src='./assets/AlarmImage.jpg'/>
+    <div className="project-card">
+      <div className="project-card-img-box">
+        <img loading="lazy" src={image} />
+      </div>
+      <div className="project-card-details">
+        <h3 className="project-title">{title}</h3>
+        <p className="project-description">{desc}</p>
+        <div className="project-card-links">
+          <a className="project-link" href={site} target="_blank">
+            Visit Site
+          </a>
+          <a className="project-link" href={code} target="_blank">
+            Visit Code
+          </a>
+        </div>
+      </div>
     </div>
-    <div className='project-card-details'>
-<h3 className='project-title'>MyStore</h3>
-<p className='project-description'>A responsive eCommerce platform with user-centric features, including 'Add to Cart,' smart filtering, and 'Clear Cart,' to deliver a seamless and engaging shopping experience.</p>
-<div className='project-card-links'>
-<a className='project-link' href='https://harshitstore.netlify.app/' target='_blank'>Visit Site</a>
-<a className='project-link' href='https://github.com/HarshitSinghT0mar/MyStore' target='_blank'>Visit Code</a>
-</div>
-    </div>
-      
-    </div>
-  )
-}
+  );
+};
 
-export default Card
+export default Card;
