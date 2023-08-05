@@ -12,6 +12,7 @@ const TechStack = () => {
     <img loading='lazy' src='./assets/github.png' />
     <img loading='lazy' src='./assets/vscode.png' />
     <img loading='lazy' src='./assets/netlify-icon.svg' />
+    <img loading='lazy' src='./assets/figma.png' />
       
     </section>
   )

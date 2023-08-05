@@ -8,7 +8,7 @@ const About = () => {
           className="about-section-heading heading  "
           style={{ fontSize: "2.5rem", marginBottom: "3px" }}
         >
-          Hey,I'm <br />
+          Hi,I'm <br />
           Harshit Singh Tomar,
         </h2>
         <p>
