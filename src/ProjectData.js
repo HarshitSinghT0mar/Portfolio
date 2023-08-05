@@ -13,7 +13,7 @@ const projectData = [
     id: 2,
     name: "Note Keeper",
     description:
-      "Presenting Note Keeper – a React.js-powered application designed to elevate note-taking. Seamlessly create, store, and delete notes while ensuring synchronized updates to local storage. Experience the perfect blend of functionality and user-centric design, showcasing my expertise in crafting intuitive front-end solutions.",
+      "Presenting Note Keeper – a React.js-powered application designed to elevate note-taking. Seamlessly create, store, and delete notes while ensuring synchronized updates to local storage.",
     image: "./assets/NotesImage.jpg",
     siteLink: "https://yournotesskeeper.netlify.app/",
     codeLink: "https://github.com/HarshitSinghT0mar/Keeper",
@@ -22,7 +22,7 @@ const projectData = [
     id: 3,
     name: "Alarm Clock",
     description:
-      "Presenting SmartAlarm – a dynamic alarm clock project developed with HTML, CSS, and JavaScript. Experience personalized time management with a digital clock, customizable alarms, and the ability to conveniently clear them. Elevate your wake-up routine with this intuitive blend of design and functionality, underscoring my expertise in front-end development.",
+      "Presenting SmartAlarm – a dynamic alarm clock project developed with HTML, CSS, and JavaScript. Experience personalized time management with a digital clock, with alarm feature, and the ability to conveniently clear it.",
     image: "./assets/AlarmImage.jpg",
     siteLink: "https://alarmclock.harshitt0mar.repl.co/",
     codeLink: "https://replit.com/@HarshitT0mar/AlarmClock",
@@ -31,7 +31,7 @@ const projectData = [
     id: 4,
     name: "Figma Design Replica",
     description:
-      "I successfully brought to life a dynamic project by seamlessly translating a meticulously crafted Figma design into a fully functional web application. Leveraging the power of React, HTML, JavaScript, and CSS, I meticulously recreated the design's aesthetic while ensuring a seamless user experience on mobile devices through responsive design techniques. This project stands as a testament to my ability to bridge design and development, resulting in a visually captivating and user-friendly application accessible across various phone devices.",
+      "I successfully brought to life a dynamic project by seamlessly translating a meticulously crafted Figma design into a fully functional web application. Leveraging the power of React, HTML, JavaScript, and CSS, I meticulously recreated the design's aesthetic while ensuring a seamless user experience on mobile devices through responsive design techniques.",
     image: "./assets/figmaImage.jpg",
     siteLink: "https://harshitsinght0mar.github.io/Unstop/",
     codeLink: " https://github.com/HarshitSinghT0mar/Unstop",

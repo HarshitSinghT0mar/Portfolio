@@ -10,8 +10,10 @@ function App() {
   
   return (<>
     <div className='app-container'>
-      {/* <Navbar /> */}
+    <div className='nav-about'>
+      <Navbar />
       <About />
+      </div>
       <TechStack />
       <Projects />
       

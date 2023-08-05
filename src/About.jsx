@@ -1,8 +1,11 @@
 import React from "react";
 
+
+
 const About = () => {
   return (
     <section className="about-section">
+    {/* <Navbar /> */}
       <div className="about-section-para">
         <h2
           className="about-section-heading heading  "
@@ -12,12 +15,16 @@ const About = () => {
           Harshit Singh Tomar,
         </h2>
         <p>
-          a frontend developer specializing in React. With a strong eye for
-          design and a knack for problem-solving, I'm committed to delivering
-          captivating user experiences. I excel in transforming complex concepts
-          into elegant, user-friendly interfaces that captivate visitors.
+        a Frontend Developer driven by a deep love for crafting beautiful user interfaces. With a strong foundation in React and an eye for detail, I transform complex ideas into elegant, user-friendly experiences. I thrive on the challenge of marrying design and code to create interfaces that captivate and delight users. Let's collaborate to bring seamless, visually stunning digital journeys to life.
         </p>
+        {/* <div className="socials-container">
+       
+          <a href="https://github.com/HarshitSinghT0mar" target="_black" rel={`noopener noreferrer ${uuidv4()}`}><GitHubIcon sx={{fontSize:30}}/></a>
+          <a href="https://www.linkedin.com/in/harshitsinghtomar/" target="_black" rel={`noopener noreferrer ${uuidv4()}`}><LinkedInIcon sx={{fontSize:30}}/></a>
+         
+        </div> */}
       </div>
+      
       <div className="about-section-image-container">
         <img loading="lazy" src="./assets/HarshitPic.png" />
       </div>
