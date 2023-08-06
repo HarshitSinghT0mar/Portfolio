@@ -262,14 +262,11 @@ margin-bottom: 1rem;
 
 @media screen and (max-width:768px)
 {
-   .app-container{
-    padding: 0.5rem;
-   }
    
   .about-section-para{
    max-width: 100%;
    text-align: center;
-   padding: 0.2rem;
+   padding: 1rem;
   }
 
  .nav-container-list{
@@ -313,5 +310,6 @@ gap: 6rem;
 .project-card a{
   font-size: var(--fs-primary);
 }
+
 
  }
