@@ -84,16 +84,14 @@ width: 100%;
 }
 
 .nav-container h1{
-  color:rgb(107, 243, 220);
-
+  color:var(--clr-black);
 padding: 0.5rem;
 justify-content: flex-start;
 }
 
 .nav-container-list{
   display: flex;
-  /* justify-content: space-evenly;
- width: 30%; */
+
  gap: 1rem;
 align-items: center;
  
@@ -264,20 +262,18 @@ margin-bottom: 1rem;
 
 @media screen and (max-width:768px)
 {
-   
-   .nav-about
-   {
-     height: 100%;
+   .app-container{
+    padding: 0.5rem;
    }
-
+   
   .about-section-para{
    max-width: 100%;
    text-align: center;
-   
-
+   padding: 0.2rem;
   }
+
  .nav-container-list{
-  gap:0.3rem;
+  gap:0.2rem;
  }
   .about-section{
    flex: 1; 
@@ -293,18 +289,29 @@ margin-bottom: 1rem;
 flex-direction: column;
 gap: 6rem;
   }
+  .techstack img{
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+  }
  
   .techstack{
-    height: 1.6rem;
-  }
-  .project-card-section{
- gap: 2rem;
-   flex-direction: column;
-   align-items: center;
+    gap: 1rem;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-height: 9rem;
   }
 
-  .socials-container a:hover{
-    color: black;
-    background: var(--clr-red);
+
+  .project-card-section{
+   gap: 2rem;
+   flex-direction: column;
+   align-items: center;
+  
   }
+.project-card a{
+  font-size: var(--fs-primary);
+}
+
  }

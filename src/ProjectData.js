@@ -3,7 +3,7 @@ const projectData = [
     id: 1,
     name: "MyStore",
     description:
-      "A responsive eCommerce platform with user-centric features, including 'Add to Cart,' smart filtering, and 'Clear Cart,' to deliver a seamless and engaging shopping experience.",
+      "Discover an eCommerce hub designed for you. This platform seamlessly combines user-friendly elements like 'Add to Cart,' intelligent filtering, and 'Clear Cart,' ensuring a captivating shopping adventure. With React's power and advanced state management, experience fluid interactions and real-time updates, creating a shopping journey that's both dynamic and delightful.",
     image: "./assets/StoreImage.jpg",
     siteLink: "https://harshitstore.netlify.app/",
     codeLink: "https://github.com/HarshitSinghT0mar/MyStore",
