@@ -13,7 +13,7 @@ const Navbar = () => {
         {/* <div className="socials-container"> */}
         {/* <a href='/'>Projects</a> */}
         
-        <a href='/'>Blogs</a>
+        {/* <a href='/'>Blogs</a> */}
        
           <a href="https://github.com/HarshitSinghT0mar" target="_black" rel={`noopener noreferrer ${uuidv4()}`}><GitHubIcon sx={{fontSize:30}}/></a>
           <a href="https://www.linkedin.com/in/harshitsinghtomar/" target="_black" rel={`noopener noreferrer ${uuidv4()}`}><LinkedInIcon sx={{fontSize:30}}/></a>
