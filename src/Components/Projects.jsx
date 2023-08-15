@@ -9,7 +9,7 @@ const Projects = () => {
         <h2 className="heading">My Projects</h2>
         <div className="project-card-section">
           {projectData.map((project) => {
-            const { id, description, image, name, siteLink, codeLink } =
+            const { id, description, image, name, siteLink, codeLink,blurHashValue } =
               project;
             return (
               <Card
@@ -19,6 +19,7 @@ const Projects = () => {
                 desc={description}
                 site={siteLink}
                 code={codeLink}
+                hashValue={blurHashValue}
               />
             );
           })}

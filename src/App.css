@@ -221,7 +221,13 @@ width: 100%;
 }
 .project-card-img-box img{
 height: 100%;
-object-fit: cover;
+object-fit: fill;
+width: 100%;
+border-radius: 2rem 2rem 0 0;
+}
+.blurhash-canvas{
+  height: 100%;
+object-fit: fill;
 width: 100%;
 border-radius: 2rem 2rem 0 0;
 }

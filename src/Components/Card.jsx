@@ -1,12 +1,25 @@
-import React from "react";
-import { Blurhash } from "react-blurhash";
+import React, { useEffect, useState } from "react";
+import { BlurhashCanvas } from "react-blurhash";
 
-const Card = ({ image, desc, title, code, site } = props) => {
+const Card = ({ image, desc, title, code, site, hashValue } = props) => {
+  const [loadImage, setLoadImage] = useState(false);
+ 
+  useEffect(()=>{
+    const newImage=new Image();
+    newImage.src=image;
+newImage.onload=()=>{
+  return setLoadImage(true)
+}
+
+  },[])
   return (
     <div className="project-card">
       <div className="project-card-img-box">
-      {/* <Blurhash hash="LNR,KqX-}7xT;]sjJCN|+ca#E*nh"  /> */}
-        <img loading="lazy" src={image} />
+        {loadImage ? (
+          <img loading="lazy" src={image} />
+        ) : (
+          <BlurhashCanvas hash={hashValue} className="blurhash-canvas" />
+        )}
       </div>
       <div className="project-card-details">
         <h3 className="project-title">{title}</h3>

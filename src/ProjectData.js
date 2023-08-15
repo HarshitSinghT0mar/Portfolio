@@ -7,6 +7,7 @@ const projectData = [
     image: "./assets/StoreImage.jpg",
     siteLink: "https://harshitstore.netlify.app/",
     codeLink: "https://github.com/HarshitSinghT0mar/MyStore",
+    blurHashValue:"LNR,KqX-}7xT;]sjJCN|+ca#E*nh"
   },
  
   {
@@ -17,6 +18,7 @@ const projectData = [
     image: "./assets/NotesImage.jpg",
     siteLink: "https://yournotesskeeper.netlify.app/",
     codeLink: "https://github.com/HarshitSinghT0mar/Keeper",
+    blurHashValue:"LA8r%dPB8w[TPVs9zoX9HXvzysGa"
   },
   {
     id: 3,
@@ -26,6 +28,7 @@ const projectData = [
     image: "./assets/AlarmImage.jpg",
     siteLink: "https://alarmclock.harshitt0mar.repl.co/",
     codeLink: "https://replit.com/@HarshitT0mar/AlarmClock",
+    blurHashValue:"LAS=BNt$[QxY-JaLOdj=#MofJIRk"
   },
   {
     id: 4,
@@ -35,6 +38,8 @@ const projectData = [
     image: "./assets/figmaImage.jpg",
     siteLink: "https://harshitsinght0mar.github.io/Unstop/",
     codeLink: " https://github.com/HarshitSinghT0mar/Unstop",
+    blurHashValue:"LIR3TWay~qt7t7WBM{s:Rjj[Woaf"
+   
   },
   {
     id: 5,
@@ -44,6 +49,7 @@ const projectData = [
     image: "./assets/todoImage.jpg",
     siteLink: "https://todolist.harshitt0mar.repl.co/",
     codeLink: " https://replit.com/@HarshitT0mar/todolist",
+    blurHashValue:"LHH_lMWV00WBe-Rj%Mt700s:_Nj@"
   },
 ];
 
