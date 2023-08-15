@@ -1,9 +1,11 @@
 import React from "react";
+import { Blurhash } from "react-blurhash";
 
 const Card = ({ image, desc, title, code, site } = props) => {
   return (
     <div className="project-card">
       <div className="project-card-img-box">
+      {/* <Blurhash hash="LNR,KqX-}7xT;]sjJCN|+ca#E*nh"  /> */}
         <img loading="lazy" src={image} />
       </div>
       <div className="project-card-details">
