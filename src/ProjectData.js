@@ -3,7 +3,7 @@ const projectData = [
     id: 1,
     name: "MyStore",
     description:
-      "Discover an eCommerce hub designed for you. This platform seamlessly combines user-friendly elements like 'Add to Cart,' intelligent filtering, and 'Clear Cart,' ensuring a captivating shopping adventure. With React's power and advanced state management, experience fluid interactions and real-time updates, creating a shopping journey that's both dynamic and delightful.",
+      "Discover an eCommerce hub designed for you. This platform seamlessly combines user-friendly elements like 'Add to Cart,' intelligent filtering, and 'Clear Cart,' ensuring a captivating shopping adventure. With React's power and advanced state management and real-time updates, creating a shopping journey that's both dynamic and delightful.",
     image: "./assets/StoreImage.jpg",
     siteLink: "https://harshitstore.netlify.app/",
     codeLink: "https://github.com/HarshitSinghT0mar/MyStore",
@@ -34,7 +34,7 @@ const projectData = [
     id: 4,
     name: "Figma Design Replica",
     description:
-      "I successfully brought to life a dynamic project by seamlessly translating a meticulously crafted Figma design into a fully functional web application. Leveraging the power of React, HTML, JavaScript, and CSS, I meticulously recreated the design's aesthetic while ensuring a seamless user experience on mobile devices through responsive design techniques.",
+      "I successfully brought to life a dynamic project by seamlessly translating a meticulously crafted Figma design into a fully functional web application. Leveraging the power of React, HTML, JavaScript, and CSS, I meticulously recreated the design's aesthetic while ensuring a seamless user experience on mobile devices through responsive design.",
     image: "./assets/figmaImage.jpg",
     siteLink: "https://harshitsinght0mar.github.io/Unstop/",
     codeLink: " https://github.com/HarshitSinghT0mar/Unstop",
