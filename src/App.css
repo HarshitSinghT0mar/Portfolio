@@ -293,11 +293,12 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     height: 8vmin;
-  /* margin-top: 8rem; */
-
+    padding: 1px;
   
   }
-
+.projects-section{
+  flex: 1;
+}
   .project-card-section {
     gap: 2rem;
     flex-direction: column;
