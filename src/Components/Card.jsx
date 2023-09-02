@@ -3,15 +3,14 @@ import { BlurhashCanvas } from "react-blurhash";
 
 const Card = ({ image, desc, title, code, site, hashValue } = props) => {
   const [loadImage, setLoadImage] = useState(false);
- 
-  useEffect(()=>{
-    const newImage=new Image();
-    newImage.src=image;
-newImage.onload=()=>{
-  return setLoadImage(true)
-}
 
-  },[])
+  useEffect(() => {
+    const newImage = new Image();
+    newImage.src = image;
+    newImage.onload = () => {
+      return setLoadImage(true);
+    };
+  }, []);
   return (
     <div className="project-card">
       <div className="project-card-img-box">

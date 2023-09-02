@@ -5,7 +5,7 @@ const projectData = [
     description:
       "Discover an eCommerce hub designed for you. This platform seamlessly combines user-friendly elements like 'Add to Cart,' intelligent filtering, and 'Clear Cart,' ensuring a captivating shopping adventure. With React's power and advanced state management and real-time updates, creating a shopping journey that's both dynamic and delightful.",
     image: "./assets/StoreImage.jpg",
-    siteLink: "https://harshitstore.netlify.app/",
+    siteLink: "https://my-store-neon-tau.vercel.app/",
     codeLink: "https://github.com/HarshitSinghT0mar/MyStore",
     blurHashValue:"LNR,KqX-}7xT;]sjJCN|+ca#E*nh"
   },
