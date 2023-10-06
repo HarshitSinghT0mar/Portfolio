@@ -17,8 +17,8 @@ const projectData = [
       "Presenting Note Keeper – a React.js-powered application designed to elevate note-taking. Seamlessly create, store, and delete notes while ensuring synchronized updates to local storage.",
     image: "./assets/NotesImage.jpg",
     siteLink: "https://yournotesskeeper.netlify.app/",
+    blurHashValue:"LA8r%dPB8w[TPVs9zoX9HXvzysGa",
     codeLink: "https://github.com/HarshitSinghT0mar/Keeper",
-    blurHashValue:"LA8r%dPB8w[TPVs9zoX9HXvzysGa"
   },
   {
     id: 3,
